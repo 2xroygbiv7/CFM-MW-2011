@@ -10,6 +10,8 @@ gem 'sqlite3'
 gem 'omniauth', '0.2.0'
 gem 'httparty'
 
+gem 'jquery-rails'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

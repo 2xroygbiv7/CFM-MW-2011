@@ -1,11 +1,18 @@
 require 'accounts'
 
+
+
 class AccountsController < ApplicationController
+
+respond_to :json
+
   def index
   end
   
   def search
     @json = Accounts.search(params[:accountName])
+    #respond_with(@json)
+    render :json => @json
   end
   
   def show
