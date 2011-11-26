@@ -3102,3 +3102,62 @@ Started POST "/accounts/search" for 127.0.0.1 at 2011-11-26 21:51:24 +1100
   Parameters: {"accountName"=>"sForce"}
 Rendered accounts/search.html.erb within layouts/application (5.8ms)
 Completed 200 OK in 1918ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-26 23:43:36 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTuQ1XDN0S1FIFiZOyqRPI7W7Y.sugPfL5KTecboYPyZySsh9.Q%3D%3D" for 127.0.0.1 at 2011-11-26 23:43:55 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTuQ1XDN0S1FIFiZOyqRPI7W7Y.sugPfL5KTecboYPyZySsh9.Q==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 23:43:58 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 23:45:27 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 23:45:59 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 23:46:22 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-26 23:51:43 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sfd"}
+Rendered accounts/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 4044ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-27 00:17:52 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTq90ylFIRvl.8o6UxhxB4mw_XDdzVL0aVSg8HS5tDNDxb2sdTw%3D%3D" for 127.0.0.1 at 2011-11-27 00:17:58 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTq90ylFIRvl.8o6UxhxB4mw_XDdzVL0aVSg8HS5tDNDxb2sdTw==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-27 00:18:01 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
