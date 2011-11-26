@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+  $.ajax({
+    url: 'https://localhost:3000/accounts/search?accountName=sForce',
+    dataType: 'jsonp',
+    type: 'GET',
+    processData: false,
+    contentType: 'application/json',
+    //jsonpCallback: 'successCallback'
+    //success: function(response){console.log('PUT completed ' + response);}
+    success: function(response){$("body").append('<b>' + response + '</b>');}
+  });
+  //function successCallback(data) {
+  //  $.each(data.records, function(i,item){
+  //    $("body").append('<h1>' + item.Name + '</h1>');
+  //  });
+  //};
+  
+</script>
+</head>
+<body>
+  <h1>Customer Flow Management Proof of Concept</h1>
+  <br/>
+  <p>This is a proof of concept implementation simulating a ajax request from a web page</p>
+  <p>to CFM middleware which then queries the SalesForce database for the required information.<p>
+  <br/>
+  <p>The query returns the account id for a customer with the name "sForce".</p>
+  <br/>
+  <b>Response is ===></b>
+
+</body>
+</html>

@@ -807,3 +807,2186 @@ Started OPTIONS "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-10-3
   Processing by AccountsController#search as HTML
   Parameters: {"accountName"=>"sForce"}
 Completed 200 OK in 1790ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-04 22:56:36 +1100
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-04 22:56:48 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTt3tEsepWgRxwFEL6ASrLGkhDtSZIEpj_rW.pWlZzNZ76mKzbg%3D%3D" for 127.0.0.1 at 2011-11-04 22:57:25 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTt3tEsepWgRxwFEL6ASrLGkhDtSZIEpj_rW.pWlZzNZ76mKzbg==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-04 22:57:28 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-04 22:57:37 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1744ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-04 23:47:51 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTtNCLUWUV4sKckYMvho99BUAsf5eGYLuhwdhy77M_hq_4VskCw%3D%3D" for 127.0.0.1 at 2011-11-04 23:48:22 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTtNCLUWUV4sKckYMvho99BUAsf5eGYLuhwdhy77M_hq_4VskCw==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-04 23:48:24 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-05 00:05:11 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 2013ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery1708236535106110342_1320413467221&_=1320413467227" for 127.0.0.1 at 2011-11-05 00:31:07 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery1708236535106110342_1320413467221", "_"=>"1320413467227"}
+Completed 200 OK in 1586ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17020937437038125184_1320413547709&_=1320413547716" for 127.0.0.1 at 2011-11-05 00:32:27 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17020937437038125184_1320413547709", "_"=>"1320413547716"}
+Completed 200 OK in 1582ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17029932974207142304_1320413931550&_=1320413931557" for 127.0.0.1 at 2011-11-05 00:38:51 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17029932974207142304_1320413931550", "_"=>"1320413931557"}
+Completed 200 OK in 2023ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-05 00:40:28 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1635ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=?" for 127.0.0.1 at 2011-11-05 00:41:16 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce", "callback"=>"?"}
+Completed 200 OK in 1672ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=?" for 127.0.0.1 at 2011-11-05 00:42:13 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce", "callback"=>"?"}
+Completed 200 OK in 1589ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=?" for 127.0.0.1 at 2011-11-05 00:42:22 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce", "callback"=>"?"}
+Completed 200 OK in 1500ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=?" for 127.0.0.1 at 2011-11-05 00:43:47 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce", "callback"=>"?"}
+Completed 200 OK in 1615ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17022203140692135137_1320414287787&_=1320414287795" for 127.0.0.1 at 2011-11-05 00:44:47 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17022203140692135137_1320414287787", "_"=>"1320414287795"}
+Completed 200 OK in 2019ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery1709441953527851861_1320414682894&_=1320414682901" for 127.0.0.1 at 2011-11-05 00:51:22 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery1709441953527851861_1320414682894", "_"=>"1320414682901"}
+Completed 200 OK in 1930ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery1701132583124747828_1320414685896&_=1320414685910" for 127.0.0.1 at 2011-11-05 00:51:25 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery1701132583124747828_1320414685896", "_"=>"1320414685910"}
+Completed 200 OK in 1453ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=response" for 127.0.0.1 at 2011-11-05 00:53:08 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce", "callback"=>"response"}
+Completed 200 OK in 1647ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17018331990496841155_1320414822618&_=1320414822624" for 127.0.0.1 at 2011-11-05 00:53:42 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17018331990496841155_1320414822618", "_"=>"1320414822624"}
+Completed 200 OK in 1626ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery1702525860953740292_1320415399859&_=1320415399868" for 127.0.0.1 at 2011-11-05 01:03:19 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery1702525860953740292_1320415399859", "_"=>"1320415399868"}
+Completed 200 OK in 2032ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=successCallback&_=1320416159288" for 127.0.0.1 at 2011-11-05 01:15:59 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"successCallback", "_"=>"1320416159288"}
+Completed 200 OK in 1948ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=successCallback&_=1320416194770" for 127.0.0.1 at 2011-11-05 01:16:34 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"successCallback", "_"=>"1320416194770"}
+Completed 200 OK in 1569ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=successCallback&_=1320416242710" for 127.0.0.1 at 2011-11-05 01:17:22 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"successCallback", "_"=>"1320416242710"}
+Completed 200 OK in 1661ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=successCallback&_=1320416428893" for 127.0.0.1 at 2011-11-05 01:20:28 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"successCallback", "_"=>"1320416428893"}
+Completed 200 OK in 1584ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-05 01:20:46 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1616ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=successCallback&_=1320441790457" for 127.0.0.1 at 2011-11-05 08:23:11 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"successCallback", "_"=>"1320441790457"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:13:in `search'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (58.5ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (71.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/accounts/get_account?callback=sForce&callback=jQuery1701505000464542503_1320442700754&_=1320442700762" for 127.0.0.1 at 2011-11-05 08:38:21 +1100
+  Processing by AccountsController#show as 
+  Parameters: {"callback"=>"jQuery1701505000464542503_1320442700754", "_"=>"1320442700762", "id"=>"get_account"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:55:in `retrieve'
+  app/controllers/accounts_controller.rb:24:in `show'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (59.9ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (68.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/accounts/get_account?callback=sForce&callback=jQuery1708075591256083812_1320442724264&_=1320442724271" for 127.0.0.1 at 2011-11-05 08:38:45 +1100
+  Processing by AccountsController#show as 
+  Parameters: {"callback"=>"jQuery1708075591256083812_1320442724264", "_"=>"1320442724271", "id"=>"get_account"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:55:in `retrieve'
+  app/controllers/accounts_controller.rb:24:in `show'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (58.6ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (66.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/accounts/sForce.js?callback=jQuery1707635502763044775_1320443592061&_=1320443592069" for 127.0.0.1 at 2011-11-05 08:53:13 +1100
+  Processing by AccountsController#show as JS
+  Parameters: {"callback"=>"jQuery1707635502763044775_1320443592061", "_"=>"1320443592069", "id"=>"sForce"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:19:in `show'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.1ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (89.8ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (102.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/accounts/sForce.js?callback=jQuery1709801874019701633_1320443785191&_=1320443785197" for 127.0.0.1 at 2011-11-05 08:56:26 +1100
+  Processing by AccountsController#show as JS
+  Parameters: {"callback"=>"jQuery1709801874019701633_1320443785191", "_"=>"1320443785197", "id"=>"sForce"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:19:in `show'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (85.8ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (96.3ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/accounts/sForce.js" for 127.0.0.1 at 2011-11-05 08:58:00 +1100
+  Processing by AccountsController#show as JS
+  Parameters: {"id"=>"sForce"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:19:in `show'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (55.0ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (63.4ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/accounts/sForce.js" for 127.0.0.1 at 2011-11-05 09:00:00 +1100
+  Processing by AccountsController#show as JS
+  Parameters: {"id"=>"sForce"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:19:in `show'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (55.8ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (64.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/accounts/show?accountName=sForce" for 127.0.0.1 at 2011-11-05 09:01:22 +1100
+  Processing by AccountsController#show as HTML
+  Parameters: {"accountName"=>"sForce", "id"=>"show"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:19:in `show'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (60.0ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (66.9ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-05 09:04:21 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:13:in `search'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (64.6ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (73.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-05 09:07:26 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:13:in `search'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (78.0ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (89.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-05 09:08:57 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:13:in `search'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (67.6ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (75.8ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-05 09:11:47 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:13:in `search'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (56.8ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (63.8ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-05 09:17:01 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:11:in `search'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (67.6ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (75.5ms)
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-05 09:18:02 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-05 09:18:12 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:11:in `search'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (57.4ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (64.5ms)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-05 09:18:20 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTt9JEcKf2auBLCUdeeaJS.5NOdwdD9aR8QaujZjMnVZh_pTtHA%3D%3D" for 127.0.0.1 at 2011-11-05 09:18:44 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTt9JEcKf2auBLCUdeeaJS.5NOdwdD9aR8QaujZjMnVZh_pTtHA==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-05 09:18:46 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-05 09:18:58 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1647ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-05 09:19:06 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1441ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-05 09:19:42 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 406 Not Acceptable in 1589ms
+
+
+Started GET "/accounts/search?accountName=sForce?callback=magic" for 127.0.0.1 at 2011-11-05 09:21:15 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce?callback=magic"}
+Completed 406 Not Acceptable in 1436ms
+
+
+Started GET "/accounts/search?accountName=sForce?callback=magic" for 127.0.0.1 at 2011-11-05 09:21:48 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce?callback=magic"}
+Completed 406 Not Acceptable in 3587ms
+
+
+Started GET "/accounts/search?accountName=sForce&callback=magic" for 127.0.0.1 at 2011-11-05 09:22:06 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce", "callback"=>"magic"}
+Completed 406 Not Acceptable in 1576ms
+
+
+Started GET "/accounts/search?accountName=sForce&callback=magic" for 127.0.0.1 at 2011-11-05 09:24:30 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce", "callback"=>"magic"}
+Rendered accounts/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 4108ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=magic" for 127.0.0.1 at 2011-11-05 09:24:57 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce", "callback"=>"magic"}
+Rendered accounts/search.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 1704ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-05 09:25:32 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 1619ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-05 09:26:11 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1701ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-05 09:27:39 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1594ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-05 09:28:22 +1100
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/patrick/rails_projects/CFM-MW-2011/app/controllers/application_controller.rb:1)
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:11:in `search'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (39.0ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.4ms)
+
+
+Started GET "/accounts/search?accountName=sForce?callback=magic" for 127.0.0.1 at 2011-11-05 09:28:37 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce?callback=magic"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:11:in `search'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (68.0ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (75.2ms)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-05 09:28:45 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTrVb2dKc3XMt7o5Wznv_e3W1uYcXIdE7xbsXDKRy4BroYG2Yqw%3D%3D" for 127.0.0.1 at 2011-11-05 09:28:49 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTrVb2dKc3XMt7o5Wznv_e3W1uYcXIdE7xbsXDKRy4BroYG2Yqw==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-05 09:28:51 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-05 09:28:58 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1630ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-05 09:29:28 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1669ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-05 09:30:00 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 2103ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-05 09:30:45 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (45.0ms)
+Completed 500 Internal Server Error in 1598ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    12: </form>
+    13: <p/>
+    14: 
+    15: <span class="heading"><%= @json["records"].length %> accounts matching your search criteria:</span>
+    16: 	
+    17: <p/>
+    18: <table border="0" cellspacing="1" cellpadding="5" bgcolor="#CCCCCC" width="50%">
+  app/views/accounts/search.html.erb:15:in `_app_views_accounts_search_html_erb___423859333_78547380_197551930'
+  app/controllers/accounts_controller.rb:12:in `search'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (61.2ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (71.1ms)
+
+
+Started GET "/accounts/search" for 127.0.0.1 at 2011-11-05 09:31:42 +1100
+  Processing by AccountsController#search as HTML
+Rendered accounts/search.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1714ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-05 09:31:50 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1433ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-05 09:32:36 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1608ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search" for 127.0.0.1 at 2011-11-05 09:33:17 +1100
+  Processing by AccountsController#search as HTML
+Completed 200 OK in 1566ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-05 09:34:00 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1624ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-05 09:34:56 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1568ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/sForce.js?callback=jQuery17015998317379943505_1320446200159&_=1320446200167" for 127.0.0.1 at 2011-11-05 09:36:40 +1100
+  Processing by AccountsController#show as JS
+  Parameters: {"callback"=>"jQuery17015998317379943505_1320446200159", "_"=>"1320446200167", "id"=>"sForce"}
+Rendered accounts/show.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 3508ms
+
+ActionView::Template::Error (can't convert String into Integer):
+    5: <table border="0" cellspacing="1" cellpadding="5" bgcolor="#CCCCCC">
+    6: 	<tr bgcolor="#407BA8">
+    7: 		<td style="color: #ffffff; font-weight: bold;">Name</td>
+    8: 		<td bgcolor="#ffffff"><%= @account["Name"] %></td>
+    9: 	</tr>
+    10: 	<tr bgcolor="#407BA8">
+    11: 		<td style="color: #ffffff; font-weight: bold;">City</td>
+  app/views/accounts/show.html.erb:8:in `_app_views_accounts_show_html_erb__937102465_76909600_197551930'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (83.7ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (94.3ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17023952603607976253_1320446291715&_=1320446291723" for 127.0.0.1 at 2011-11-05 09:38:12 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17023952603607976253_1320446291715", "_"=>"1320446291723"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:11:in `search'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (75.0ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (82.9ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-05 09:41:42 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:11:in `search'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (60.2ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (68.5ms)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-05 09:41:55 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTjuTrV_LY8PDw_K2fKero92XYUoycUhBOBNduhKUTZkBKQCB_A%3D%3D" for 127.0.0.1 at 2011-11-05 09:41:58 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTjuTrV_LY8PDw_K2fKero92XYUoycUhBOBNduhKUTZkBKQCB_A==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-05 09:42:00 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-05 09:42:08 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1618ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-05 09:42:18 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1428ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery1706681784464225767_1320446554453&_=1320446554461" for 127.0.0.1 at 2011-11-05 09:42:34 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery1706681784464225767_1320446554453", "_"=>"1320446554461"}
+Completed 200 OK in 1578ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=successCallback&_=1320446831431" for 127.0.0.1 at 2011-11-05 09:47:11 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"successCallback", "_"=>"1320446831431"}
+Completed 200 OK in 3975ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=successCallback&_=1320446873814" for 127.0.0.1 at 2011-11-05 09:47:53 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"successCallback", "_"=>"1320446873814"}
+Completed 200 OK in 1719ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=successCallback&_=1320446918386" for 127.0.0.1 at 2011-11-05 09:48:38 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"successCallback", "_"=>"1320446918386"}
+Completed 200 OK in 1618ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17012389781817396595_1320446936131&_=1320446936138" for 127.0.0.1 at 2011-11-05 09:48:56 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17012389781817396595_1320446936131", "_"=>"1320446936138"}
+Completed 200 OK in 1597ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-05 09:49:37 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1621ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-22 17:35:08 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/accounts.rb:16:in `root_url'
+  lib/accounts.rb:22:in `search'
+  app/controllers/accounts_controller.rb:11:in `search'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (124.7ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (139.2ms)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-22 17:35:20 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTrXM70fevVa8VG82MuFiUYLRpsHpD3497d1NK5bG0j9P4Ob_1A%3D%3D" for 127.0.0.1 at 2011-11-22 17:35:52 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTrXM70fevVa8VG82MuFiUYLRpsHpD3497d1NK5bG0j9P4Ob_1A==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-22 17:35:55 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 49ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-22 17:36:54 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 676ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-22 17:37:05 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 558ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17103659794300116277_1321944854205&_=1321944854214" for 127.0.0.1 at 2011-11-22 17:54:14 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17103659794300116277_1321944854205", "_"=>"1321944854214"}
+Completed 200 OK in 1149ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery1710900930234174146_1321944878101&_=1321944878108" for 127.0.0.1 at 2011-11-22 17:54:38 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery1710900930234174146_1321944878101", "_"=>"1321944878108"}
+Completed 200 OK in 880ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=successCallback&_=1321945850530" for 127.0.0.1 at 2011-11-22 18:10:50 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"successCallback", "_"=>"1321945850530"}
+Completed 200 OK in 1215ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=successCallback&_=1321946483655" for 127.0.0.1 at 2011-11-22 18:21:23 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"successCallback", "_"=>"1321946483655"}
+Completed 200 OK in 1194ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-22 18:23:30 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 554ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-22 18:26:36 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1116ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-22 18:27:26 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTrveqMgYVUbvAO.cf3LtBaWHTXoAN4HDzPCC3DKJUHd2v5xGWQ%3D%3D" for 127.0.0.1 at 2011-11-22 18:27:30 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTrveqMgYVUbvAO.cf3LtBaWHTXoAN4HDzPCC3DKJUHd2v5xGWQ==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-22 18:27:33 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-22 18:27:40 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 527ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17105487318792679073_1321946908767&_=1321946908774" for 127.0.0.1 at 2011-11-22 18:28:28 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17105487318792679073_1321946908767", "_"=>"1321946908774"}
+Completed 200 OK in 549ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17108040186919739161_1321946917346&_=1321946917351" for 127.0.0.1 at 2011-11-22 18:28:37 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17108040186919739161_1321946917346", "_"=>"1321946917351"}
+Completed 200 OK in 264ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-22 19:41:57 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 2442ms (Views: 1188.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17107980941708964514_1321951476484&_=1321951476496" for 127.0.0.1 at 2011-11-22 19:44:36 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17107980941708964514_1321951476484", "_"=>"1321951476496"}
+Completed 200 OK in 1998ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search" for 127.0.0.1 at 2011-11-22 19:45:06 +1100
+  Processing by AccountsController#search as HTML
+Completed 200 OK in 545ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17106093261738439508_1321951514511&_=1321951514517" for 127.0.0.1 at 2011-11-22 19:45:14 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17106093261738439508_1321951514511", "_"=>"1321951514517"}
+Completed 200 OK in 267ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=&callback=jQuery17106455459762241231_1321951519051&_=1321951519058" for 127.0.0.1 at 2011-11-22 19:45:19 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"", "callback"=>"jQuery17106455459762241231_1321951519051", "_"=>"1321951519058"}
+Completed 200 OK in 538ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery171009713714570029852_1322036852032&_=1322036852046" for 127.0.0.1 at 2011-11-23 19:27:32 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171009713714570029852_1322036852032", "_"=>"1322036852046"}
+Completed 200 OK in 1240ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-23 19:27:38 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTqo9.uV20F2Z2mozjs1a73Lj8encDmFJOaYiYK8OIKQA8K7tag%3D%3D" for 127.0.0.1 at 2011-11-23 19:28:08 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTqo9.uV20F2Z2mozjs1a73Lj8encDmFJOaYiYK8OIKQA8K7tag==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-23 19:28:10 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-23 19:28:17 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 2588ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-23 19:28:24 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 356ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17107234692813741311_1322036919360&_=1322036919368" for 127.0.0.1 at 2011-11-23 19:28:39 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17107234692813741311_1322036919360", "_"=>"1322036919368"}
+Completed 200 OK in 550ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-24 12:31:47 +1100
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-24 12:32:50 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTlt9LfNr2PFkC0ReIYUsQkhWk.jz2CBpceenKhbOLugZMA4BYQ%3D%3D" for 127.0.0.1 at 2011-11-24 12:33:08 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTlt9LfNr2PFkC0ReIYUsQkhWk.jz2CBpceenKhbOLugZMA4BYQ==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-24 12:33:11 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17109241758247117366_1322098462969&_=1322098462981" for 127.0.0.1 at 2011-11-24 12:34:23 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17109241758247117366_1322098462969", "_"=>"1322098462981"}
+Completed 200 OK in 667ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=aaasForce&callback=jQuery17105969055410109071_1322098794912&_=1322098794922" for 127.0.0.1 at 2011-11-24 12:39:54 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"aaasForce", "callback"=>"jQuery17105969055410109071_1322098794912", "_"=>"1322098794922"}
+Completed 200 OK in 1132ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 12:46:48 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1186ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 12:48:09 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 592ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 12:50:00 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered text template (0.1ms)
+Completed 200 OK in 627ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 12:52:00 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered text template (0.0ms)
+Completed 200 OK in 1192ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 12:54:22 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 566ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 12:55:31 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 623ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 13:07:09 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered text template (0.0ms)
+Completed 200 OK in 1141ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 13:07:58 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 500 Internal Server Error in 621ms
+
+TypeError (can't convert String into Integer):
+  app/controllers/accounts_controller.rb:19:in `[]'
+  app/controllers/accounts_controller.rb:19:in `search'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (128.1ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (142.2ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 13:08:23 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered text template (0.0ms)
+Completed 200 OK in 549ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 13:09:22 +1100
+
+SyntaxError (/home/patrick/rails_projects/CFM-MW-2011/app/controllers/accounts_controller.rb:19: syntax error, unexpected '['
+    render :text => @json["records"].["Id"]
+                                      ^
+/home/patrick/rails_projects/CFM-MW-2011/app/controllers/accounts_controller.rb:19: syntax error, unexpected ']', expecting keyword_end
+/home/patrick/rails_projects/CFM-MW-2011/app/controllers/accounts_controller.rb:57: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (53.3ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (60.8ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 13:10:52 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered text template (0.0ms)
+Completed 200 OK in 600ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 14:37:15 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered text template (0.0ms)
+Completed 200 OK in 5518ms (Views: 408.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-24 14:37:33 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTkcuBXv21zwM1.wHZoI32pVltWHm5.YdFtSlGpnvMlMdj2Wi6Q%3D%3D" for 127.0.0.1 at 2011-11-24 14:37:49 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTkcuBXv21zwM1.wHZoI32pVltWHm5.YdFtSlGpnvMlMdj2Wi6Q==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 2ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-24 14:37:53 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (48.3ms)
+Completed 200 OK in 147ms (Views: 146.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 14:38:00 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered text template (0.0ms)
+Completed 200 OK in 628ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 14:39:05 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered text template (0.0ms)
+Completed 200 OK in 533ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 14:40:17 +1100
+
+SyntaxError (/home/patrick/rails_projects/CFM-MW-2011/app/controllers/accounts_controller.rb:57: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (83.7ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (130.7ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 15:15:17 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1155ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 15:15:40 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 652ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-24 21:34:45 +1100
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-24 21:37:31 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTpZJNhghRDb_ZgFgOGGsjBs2_QLXxI.eRQ7J9gKYdwzfYhNGcA%3D%3D" for 127.0.0.1 at 2011-11-24 21:37:50 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTpZJNhghRDb_ZgFgOGGsjBs2_QLXxI.eRQ7J9gKYdwzfYhNGcA==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-24 21:37:53 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 56ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 21:38:02 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered text template (0.0ms)
+Completed 200 OK in 626ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17106841891833536397_1322131141143&_=1322131141151" for 127.0.0.1 at 2011-11-24 21:39:01 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17106841891833536397_1322131141143", "_"=>"1322131141151"}
+Rendered text template (0.0ms)
+Completed 200 OK in 554ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 21:41:46 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered text template (0.0ms)
+Completed 200 OK in 518ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17105914335999834683_1322131318463&_=1322131318470" for 127.0.0.1 at 2011-11-24 21:41:58 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17105914335999834683_1322131318463", "_"=>"1322131318470"}
+Rendered text template (0.0ms)
+Completed 200 OK in 498ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=successCallback&_=1322131400102" for 127.0.0.1 at 2011-11-24 21:43:20 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"successCallback", "_"=>"1322131400102"}
+Rendered text template (0.0ms)
+Completed 200 OK in 1190ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search" for 127.0.0.1 at 2011-11-24 21:44:49 +1100
+  Processing by AccountsController#search as HTML
+Completed 500 Internal Server Error in 545ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/accounts_controller.rb:19:in `search'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (63.9ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (76.4ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 21:45:08 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered text template (0.1ms)
+Completed 200 OK in 545ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17104913769759324971_1322131516034&_=1322131516045" for 127.0.0.1 at 2011-11-24 21:45:16 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17104913769759324971_1322131516034", "_"=>"1322131516045"}
+Rendered text template (0.0ms)
+Completed 200 OK in 5270ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17106849220145603812_1322131945162&_=1322131945169" for 127.0.0.1 at 2011-11-24 21:52:25 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17106849220145603812_1322131945162", "_"=>"1322131945169"}
+Rendered text template (0.0ms)
+Completed 200 OK in 1203ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery171029109960106516164_1322132312250&_=1322132312258" for 127.0.0.1 at 2011-11-24 21:58:32 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171029109960106516164_1322132312250", "_"=>"1322132312258"}
+Completed 200 OK in 1446ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 21:58:52 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 557ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 22:00:15 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 616ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17101668790785498797_1322132446837&_=1322132446847" for 127.0.0.1 at 2011-11-24 22:00:46 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17101668790785498797_1322132446837", "_"=>"1322132446847"}
+Completed 200 OK in 632ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 22:02:07 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 813ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery171012047157819261611_1322132572080&_=1322132572087" for 127.0.0.1 at 2011-11-24 22:02:52 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171012047157819261611_1322132572080", "_"=>"1322132572087"}
+Completed 200 OK in 565ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 22:04:03 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1243ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17102318467675684689_1322132659701&_=1322132659709" for 127.0.0.1 at 2011-11-24 22:04:19 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17102318467675684689_1322132659701", "_"=>"1322132659709"}
+Completed 200 OK in 541ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17105570379076991758_1322132724632&_=1322132724638" for 127.0.0.1 at 2011-11-24 22:05:24 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17105570379076991758_1322132724632", "_"=>"1322132724638"}
+Rendered text template (0.0ms)
+Completed 200 OK in 559ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 22:05:30 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered text template (0.0ms)
+Completed 200 OK in 249ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-24 22:09:07 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce"}
+Rendered text template (0.1ms)
+Completed 200 OK in 1204ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-24 22:10:02 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 559ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 22:12:15 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 567ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-24 22:12:33 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 608ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery171046229238790946015_1322133185096&_=1322133185105" for 127.0.0.1 at 2011-11-24 22:13:05 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171046229238790946015_1322133185096", "_"=>"1322133185105"}
+Completed 200 OK in 585ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 22:15:22 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1172ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17105591185236485459_1322133344140&_=1322133344150" for 127.0.0.1 at 2011-11-24 22:15:44 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17105591185236485459_1322133344140", "_"=>"1322133344150"}
+Completed 200 OK in 540ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery171040892242021445935_1322133384146&_=1322133384158" for 127.0.0.1 at 2011-11-24 22:16:24 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171040892242021445935_1322133384146", "_"=>"1322133384158"}
+Completed 200 OK in 1762ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 22:17:14 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 563ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17108544013146736509_1322133451416&_=1322133451427" for 127.0.0.1 at 2011-11-24 22:17:31 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17108544013146736509_1322133451416", "_"=>"1322133451427"}
+Completed 200 OK in 553ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery171013784034171361736_1322133480571&_=1322133480578" for 127.0.0.1 at 2011-11-24 22:18:00 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171013784034171361736_1322133480571", "_"=>"1322133480578"}
+Completed 200 OK in 594ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17107996003633820638_1322133654411&_=1322133654420" for 127.0.0.1 at 2011-11-24 22:20:54 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17107996003633820638_1322133654411", "_"=>"1322133654420"}
+Completed 200 OK in 1415ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17106398200218900151_1322133832350&_=1322133832357" for 127.0.0.1 at 2011-11-24 22:23:52 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17106398200218900151_1322133832350", "_"=>"1322133832357"}
+Completed 200 OK in 823ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=successCallback&_=1322134080431" for 127.0.0.1 at 2011-11-24 22:28:00 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"successCallback", "_"=>"1322134080431"}
+Completed 200 OK in 1463ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17106554443135215409_1322134275134&_=1322134275142" for 127.0.0.1 at 2011-11-24 22:31:15 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17106554443135215409_1322134275134", "_"=>"1322134275142"}
+Completed 200 OK in 914ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-24 22:59:49 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTlXnh7gfhDlzFK1Rp82fgctFnoZj9dA7c0EWkLTFazZgVxaVwA%3D%3D" for 127.0.0.1 at 2011-11-24 23:00:03 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTlXnh7gfhDlzFK1Rp82fgctFnoZj9dA7c0EWkLTFazZgVxaVwA==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-24 23:00:11 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-24 23:00:34 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTkzeX7jNKsVWaeL8qKjsPdQPzQHKMImUY2u2W2PoZkwmVxwhQQ%3D%3D" for 127.0.0.1 at 2011-11-24 23:00:39 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTkzeX7jNKsVWaeL8qKjsPdQPzQHKMImUY2u2W2PoZkwmVxwhQQ==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-24 23:00:47 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-24 23:03:20 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTmYFRawdUWF6AR1bSg4IoI37M3UsFVexo6WfYASqBIxUrqeI_w%3D%3D" for 127.0.0.1 at 2011-11-24 23:03:29 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTmYFRawdUWF6AR1bSg4IoI37M3UsFVexo6WfYASqBIxUrqeI_w==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-24 23:03:37 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-24 23:04:26 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-24 23:04:38 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-24 23:04:38 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (7.5ms)
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-24 23:05:39 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-24 23:05:39 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 23:05:45 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 6104ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17104287560423762047_1322136390863&_=1322136390875" for 127.0.0.1 at 2011-11-24 23:06:30 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17104287560423762047_1322136390863", "_"=>"1322136390875"}
+Completed 200 OK in 12574ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery171049067003837589673_1322136471978&_=1322136471985" for 127.0.0.1 at 2011-11-24 23:07:52 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171049067003837589673_1322136471978", "_"=>"1322136471985"}
+Completed 200 OK in 1469ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-24 23:09:21 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-24 23:09:22 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-24 23:09:55 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-24 23:09:56 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 23:12:17 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"00190000009IKeMAAW"}
+Completed 500 Internal Server Error in 1371ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/accounts_controller.rb:20:in `search'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (68.1ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (76.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17104957209712284253_1322136788947&_=1322136788956" for 127.0.0.1 at 2011-11-24 23:13:08 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17104957209712284253_1322136788947", "_"=>"1322136788956"}
+Completed 200 OK in 755ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery171044148703661695887_1322136795513&_=1322136795520" for 127.0.0.1 at 2011-11-24 23:13:15 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171044148703661695887_1322136795513", "_"=>"1322136795520"}
+Completed 200 OK in 382ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery171034346865439862295_1322136866935&_=1322136866942" for 127.0.0.1 at 2011-11-24 23:14:26 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171034346865439862295_1322136866935", "_"=>"1322136866942"}
+Completed 200 OK in 1378ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-24 23:14:38 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTnOnlwqnNfgrdJ8_04fd5kWwXYO.cxZPpetxTjJ9CUmG1qFssw%3D%3D" for 127.0.0.1 at 2011-11-24 23:14:41 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTnOnlwqnNfgrdJ8_04fd5kWwXYO.cxZPpetxTjJ9CUmG1qFssw==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-24 23:14:44 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-24 23:14:44 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (5.3ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 23:14:53 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 592ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17106973001793192704_1322136906707&_=1322136906718" for 127.0.0.1 at 2011-11-24 23:15:06 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17106973001793192704_1322136906707", "_"=>"1322136906718"}
+Completed 200 OK in 646ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 23:17:03 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 907ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17105562063182669408_1322137053973&_=1322137053983" for 127.0.0.1 at 2011-11-24 23:17:33 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17105562063182669408_1322137053973", "_"=>"1322137053983"}
+Completed 200 OK in 2839ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17108471387637200642_1322137179895&_=1322137179904" for 127.0.0.1 at 2011-11-24 23:19:39 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17108471387637200642_1322137179895", "_"=>"1322137179904"}
+Completed 200 OK in 727ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery171021280192961867017_1322137365504&_=1322137365514" for 127.0.0.1 at 2011-11-24 23:22:45 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171021280192961867017_1322137365504", "_"=>"1322137365514"}
+Completed 200 OK in 1479ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-24 23:23:37 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTpQN78VCELg_49mXBKUpmPKKNI1Z2J5x3vAsocrANJJiOaycrg%3D%3D" for 127.0.0.1 at 2011-11-24 23:23:44 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTpQN78VCELg_49mXBKUpmPKKNI1Z2J5x3vAsocrANJJiOaycrg==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-24 23:23:47 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-24 23:23:48 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (5.5ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 23:23:53 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 4684ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17107787069398659063_1322137467918&_=1322137467925" for 127.0.0.1 at 2011-11-24 23:24:27 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17107787069398659063_1322137467918", "_"=>"1322137467925"}
+Completed 200 OK in 1635ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce" for 127.0.0.1 at 2011-11-24 23:28:31 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 3196ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery1710610789594856829_1322137784521&_=1322137784530" for 127.0.0.1 at 2011-11-24 23:29:44 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery1710610789594856829_1322137784521", "_"=>"1322137784530"}
+Completed 200 OK in 2700ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17104054214574957865_1322137828305&_=1322137828311" for 127.0.0.1 at 2011-11-24 23:30:28 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17104054214574957865_1322137828305", "_"=>"1322137828311"}
+Completed 200 OK in 677ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery171024021943942330626_1322137882997&_=1322137883015" for 127.0.0.1 at 2011-11-24 23:31:23 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171024021943942330626_1322137882997", "_"=>"1322137883015"}
+Completed 200 OK in 12518ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-24 23:32:25 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTgPPpPpjsaPGk5nI6KELRR3ZETDcEjVlurxS3.HT_Pc0TaLlpg%3D%3D" for 127.0.0.1 at 2011-11-24 23:33:14 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTgPPpPpjsaPGk5nI6KELRR3ZETDcEjVlurxS3.HT_Pc0TaLlpg==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-24 23:33:17 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-24 23:33:18 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17107694329391375803_1322138010728&_=1322138010739" for 127.0.0.1 at 2011-11-24 23:33:30 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17107694329391375803_1322138010728", "_"=>"1322138010739"}
+Completed 200 OK in 1284ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17109326049564752985_1322138047157&_=1322138047168" for 127.0.0.1 at 2011-11-24 23:34:07 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17109326049564752985_1322138047157", "_"=>"1322138047168"}
+Completed 200 OK in 9852ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 23:36:40 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 26470ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17107017847061354103_1322138265588&_=1322138265603" for 127.0.0.1 at 2011-11-24 23:37:45 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17107017847061354103_1322138265588", "_"=>"1322138265603"}
+Completed 200 OK in 16348ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17106310510750052697_1322138355334&_=1322138355349" for 127.0.0.1 at 2011-11-24 23:39:15 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17106310510750052697_1322138355334", "_"=>"1322138355349"}
+Completed 200 OK in 12485ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 23:41:06 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 667ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 23:43:40 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 692ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-24 23:43:59 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 1108ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery171029994412278979676_1322138675081&_=1322138675093" for 127.0.0.1 at 2011-11-24 23:44:35 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171029994412278979676_1322138675081", "_"=>"1322138675093"}
+Completed 200 OK in 1569ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-26 11:35:46 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTquZWplKi2SeCrnERqHy7O3hJhEeIyyL8b2F0iJnUyyq34v4_w%3D%3D" for 127.0.0.1 at 2011-11-26 11:36:14 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTquZWplKi2SeCrnERqHy7O3hJhEeIyyL8b2F0iJnUyyq34v4_w==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 11:36:17 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-26 11:36:18 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-26 11:36:22 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Completed 200 OK in 2245ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17107798333596934148_1322267891798&_=1322267891810" for 127.0.0.1 at 2011-11-26 11:38:11 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17107798333596934148_1322267891798", "_"=>"1322267891810"}
+Completed 200 OK in 1853ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17103344698838858501_1322267923497&_=1322267923505" for 127.0.0.1 at 2011-11-26 11:38:43 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17103344698838858501_1322267923497", "_"=>"1322267923505"}
+Completed 200 OK in 1705ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17106656297699262682_1322268011908&_=1322268011914" for 127.0.0.1 at 2011-11-26 11:40:11 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17106656297699262682_1322268011908", "_"=>"1322268011914"}
+Completed 200 OK in 2084ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17108350033345518239_1322268068446&_=1322268068454" for 127.0.0.1 at 2011-11-26 11:41:08 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17108350033345518239_1322268068446", "_"=>"1322268068454"}
+Completed 200 OK in 1857ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17108058971971811029_1322268791089&_=1322268791097" for 127.0.0.1 at 2011-11-26 11:53:11 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17108058971971811029_1322268791089", "_"=>"1322268791097"}
+Completed 200 OK in 2526ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17106867549444369233_1322268847115&_=1322268847122" for 127.0.0.1 at 2011-11-26 11:54:07 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17106867549444369233_1322268847115", "_"=>"1322268847122"}
+Completed 200 OK in 1831ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery171018996879634919572_1322268881803&_=1322268881811" for 127.0.0.1 at 2011-11-26 11:54:41 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171018996879634919572_1322268881803", "_"=>"1322268881811"}
+Completed 200 OK in 2043ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17109636055733047661_1322268909669&_=1322268909676" for 127.0.0.1 at 2011-11-26 11:55:09 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17109636055733047661_1322268909669", "_"=>"1322268909676"}
+Completed 200 OK in 2096ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery171039605310838767505_1322269123930&_=1322269123955" for 127.0.0.1 at 2011-11-26 11:58:44 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171039605310838767505_1322269123930", "_"=>"1322269123955"}
+Completed 200 OK in 2227ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17103422260026631673_1322269270895&_=1322269270904" for 127.0.0.1 at 2011-11-26 12:01:11 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17103422260026631673_1322269270895", "_"=>"1322269270904"}
+Completed 200 OK in 1898ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-26 14:51:39 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTuWuImZur6PxKE.zO8hJzZw1ISe1.yCFq8x.HWFugnZUT_SfNA%3D%3D" for 127.0.0.1 at 2011-11-26 14:51:56 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTuWuImZur6PxKE.zO8hJzZw1ISe1.yCFq8x.HWFugnZUT_SfNA==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 14:51:59 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-26 14:52:02 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/accounts/rest?accountName=sForce" for 127.0.0.1 at 2011-11-26 14:52:38 +1100
+  Processing by AccountsController#show as HTML
+  Parameters: {"accountName"=>"sForce", "id"=>"rest"}
+Rendered accounts/show.html.erb within layouts/application (37.2ms)
+Completed 500 Internal Server Error in 3956ms
+
+ActionView::Template::Error (can't convert String into Integer):
+    5: <table border="0" cellspacing="1" cellpadding="5" bgcolor="#CCCCCC">
+    6: 	<tr bgcolor="#407BA8">
+    7: 		<td style="color: #ffffff; font-weight: bold;">Name</td>
+    8: 		<td bgcolor="#ffffff"><%= @account["Name"] %></td>
+    9: 	</tr>
+    10: 	<tr bgcolor="#407BA8">
+    11: 		<td style="color: #ffffff; font-weight: bold;">City</td>
+  app/views/accounts/show.html.erb:8:in `_app_views_accounts_show_html_erb__819253128_83373020__7335728'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (41.0ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (82.4ms)
+
+
+Started GET "/accounts/rest?accountName=sForce&callback=jQuery17101981106605581734_1322279815089&_=1322279815097" for 127.0.0.1 at 2011-11-26 14:56:55 +1100
+  Processing by AccountsController#show as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17101981106605581734_1322279815089", "_"=>"1322279815097", "id"=>"rest"}
+Rendered accounts/show.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 3924ms
+
+ActionView::Template::Error (can't convert String into Integer):
+    5: <table border="0" cellspacing="1" cellpadding="5" bgcolor="#CCCCCC">
+    6: 	<tr bgcolor="#407BA8">
+    7: 		<td style="color: #ffffff; font-weight: bold;">Name</td>
+    8: 		<td bgcolor="#ffffff"><%= @account["Name"] %></td>
+    9: 	</tr>
+    10: 	<tr bgcolor="#407BA8">
+    11: 		<td style="color: #ffffff; font-weight: bold;">City</td>
+  app/views/accounts/show.html.erb:8:in `_app_views_accounts_show_html_erb__819253128_84557690__7335728'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (39.6ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (73.8ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery17103903814986981149_1322279855924&_=1322279855930" for 127.0.0.1 at 2011-11-26 14:57:36 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17103903814986981149_1322279855924", "_"=>"1322279855930"}
+Completed 200 OK in 1783ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-26 14:58:49 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1907ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/rest?accountName=sForce&callback=jQuery171007354988451044708_1322280025983&_=1322280025990" for 127.0.0.1 at 2011-11-26 15:00:26 +1100
+  Processing by AccountsController#show as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171007354988451044708_1322280025983", "_"=>"1322280025990", "id"=>"rest"}
+Rendered accounts/show.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 3563ms
+
+ActionView::Template::Error (can't convert String into Integer):
+    5: <table border="0" cellspacing="1" cellpadding="5" bgcolor="#CCCCCC">
+    6: 	<tr bgcolor="#407BA8">
+    7: 		<td style="color: #ffffff; font-weight: bold;">Name</td>
+    8: 		<td bgcolor="#ffffff"><%= @account["Name"] %></td>
+    9: 	</tr>
+    10: 	<tr bgcolor="#407BA8">
+    11: 		<td style="color: #ffffff; font-weight: bold;">City</td>
+  app/views/accounts/show.html.erb:8:in `_app_views_accounts_show_html_erb__819253128_82371730__7335728'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (59.4ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (55.7ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (122.1ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-26 15:03:21 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTh3a3kHPLzpp91zjFrSmyG_18TFTNlIbcsdCKnfKiODFoLhSug%3D%3D" for 127.0.0.1 at 2011-11-26 15:03:26 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTh3a3kHPLzpp91zjFrSmyG_18TFTNlIbcsdCKnfKiODFoLhSug==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 15:03:29 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-26 15:03:29 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/accounts/search?accountName=sForce&callback=jQuery171009164882753369796_1322280304907&_=1322280304913" for 127.0.0.1 at 2011-11-26 15:05:04 +1100
+  Processing by AccountsController#search as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171009164882753369796_1322280304907", "_"=>"1322280304913"}
+Completed 200 OK in 1833ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/rest?accountName=sForce&callback=jQuery17106200635146087218_1322280414550&_=1322280414558" for 127.0.0.1 at 2011-11-26 15:06:54 +1100
+  Processing by AccountsController#show as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17106200635146087218_1322280414550", "_"=>"1322280414558", "id"=>"rest"}
+Rendered accounts/show.html.erb within layouts/application (48.5ms)
+Completed 500 Internal Server Error in 3814ms
+
+ActionView::Template::Error (can't convert String into Integer):
+    5: <table border="0" cellspacing="1" cellpadding="5" bgcolor="#CCCCCC">
+    6: 	<tr bgcolor="#407BA8">
+    7: 		<td style="color: #ffffff; font-weight: bold;">Name</td>
+    8: 		<td bgcolor="#ffffff"><%= @account["Name"] %></td>
+    9: 	</tr>
+    10: 	<tr bgcolor="#407BA8">
+    11: 		<td style="color: #ffffff; font-weight: bold;">City</td>
+  app/views/accounts/show.html.erb:8:in `_app_views_accounts_show_html_erb__1039776470_80914530_332974'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (63.1ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (72.6ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-26 15:08:43 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2273ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/rest?accountName=sForce&callback=jQuery171049720826657675954_1322280588392&_=1322280588401" for 127.0.0.1 at 2011-11-26 15:09:48 +1100
+  Processing by AccountsController#show as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171049720826657675954_1322280588392", "_"=>"1322280588401", "id"=>"rest"}
+Rendered accounts/show.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 3536ms
+
+ActionView::Template::Error (can't convert String into Integer):
+    5: <table border="0" cellspacing="1" cellpadding="5" bgcolor="#CCCCCC">
+    6: 	<tr bgcolor="#407BA8">
+    7: 		<td style="color: #ffffff; font-weight: bold;">Name</td>
+    8: 		<td bgcolor="#ffffff"><%= @account["Name"] %></td>
+    9: 	</tr>
+    10: 	<tr bgcolor="#407BA8">
+    11: 		<td style="color: #ffffff; font-weight: bold;">City</td>
+  app/views/accounts/show.html.erb:8:in `_app_views_accounts_show_html_erb__1039776470_81068410_332974'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (71.9ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (80.3ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-26 15:10:37 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTrXmLd_vUtFKWDvIAcv3qf.27At..TPw2KyHkEnnrxhGdwrpDQ%3D%3D" for 127.0.0.1 at 2011-11-26 15:10:42 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTrXmLd_vUtFKWDvIAcv3qf.27At..TPw2KyHkEnnrxhGdwrpDQ==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 15:10:44 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-26 15:10:45 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-26 15:10:47 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 1691ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/rest?accountName=sForce&callback=jQuery17106959133856069295_1322280662165&_=1322280662173" for 127.0.0.1 at 2011-11-26 15:11:02 +1100
+  Processing by AccountsController#show as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17106959133856069295_1322280662165", "_"=>"1322280662173", "id"=>"rest"}
+Rendered accounts/show.html.erb within layouts/application (35.2ms)
+Completed 500 Internal Server Error in 4114ms
+
+ActionView::Template::Error (can't convert String into Integer):
+    5: <table border="0" cellspacing="1" cellpadding="5" bgcolor="#CCCCCC">
+    6: 	<tr bgcolor="#407BA8">
+    7: 		<td style="color: #ffffff; font-weight: bold;">Name</td>
+    8: 		<td bgcolor="#ffffff"><%= @account["Name"] %></td>
+    9: 	</tr>
+    10: 	<tr bgcolor="#407BA8">
+    11: 		<td style="color: #ffffff; font-weight: bold;">City</td>
+  app/views/accounts/show.html.erb:8:in `_app_views_accounts_show_html_erb__346201406_81013730__658905644'
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (66.7ms)
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (74.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-26 15:13:30 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTj75HMKLPfhd0FRA2L1QWujokbzBPLVADV.Bjxo3bC8LVOPnNQ%3D%3D" for 127.0.0.1 at 2011-11-26 15:13:33 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTj75HMKLPfhd0FRA2L1QWujokbzBPLVADV.Bjxo3bC8LVOPnNQ==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 15:13:37 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-26 15:13:37 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-26 15:13:39 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1892ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/rest?accountName=sForce&callback=jQuery171008917178466696996_1322280828109&_=1322280828116" for 127.0.0.1 at 2011-11-26 15:13:48 +1100
+  Processing by AccountsController#rest as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery171008917178466696996_1322280828109", "_"=>"1322280828116"}
+Completed 200 OK in 2254ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/00190000009IKeMAAW" for 127.0.0.1 at 2011-11-26 15:14:24 +1100
+  Processing by AccountsController#show as HTML
+  Parameters: {"id"=>"00190000009IKeMAAW"}
+Rendered accounts/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 4001ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 15:14:33 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-26 15:14:34 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-26 15:19:05 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 1913ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-26 15:19:55 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1875ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-26 15:20:02 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 1788ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-26 15:20:27 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 1871ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/00190000009IKeMAAW" for 127.0.0.1 at 2011-11-26 15:20:39 +1100
+  Processing by AccountsController#show as HTML
+  Parameters: {"id"=>"00190000009IKeMAAW"}
+Rendered accounts/show.html.erb within layouts/application (33.3ms)
+Completed 200 OK in 3832ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-26 15:22:50 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTtjic7xIBp6hOiMIMT02am.xSUtP7hsah9PlQC3YD7PeKfep6A%3D%3D" for 127.0.0.1 at 2011-11-26 15:22:56 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTtjic7xIBp6hOiMIMT02am.xSUtP7hsah9PlQC3YD7PeKfep6A==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 15:22:59 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-26 15:22:59 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-26 15:23:01 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1706ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/rest?accountName=sForce&callback=jQuery17102130399630323666_1322281410585&_=1322281410592" for 127.0.0.1 at 2011-11-26 15:23:30 +1100
+  Processing by AccountsController#rest as 
+  Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17102130399630323666_1322281410585", "_"=>"1322281410592"}
+Completed 200 OK in 2131ms (Views: 12.5ms | ActiveRecord: 0.0ms)

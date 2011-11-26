@@ -1,9 +1,11 @@
 OmniauthDemo::Application.routes.draw do
 
   match "accounts/search/", :to => "accounts#search"
+  match "accounts/rest/", :to => "accounts#rest"
 
   get "accounts/index"
   post "accounts/search"
+  post "accounts/rest"
   post "accounts/create"
   match "accounts/:id", :to => "accounts#show"
   match "accounts/:id/edit", :to => "accounts#edit"
