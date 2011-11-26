@@ -2990,3 +2990,115 @@ Started GET "/accounts/rest?accountName=sForce&callback=jQuery171021303996303236
   Processing by AccountsController#rest as 
   Parameters: {"accountName"=>"sForce", "callback"=>"jQuery17102130399630323666_1322281410585", "_"=>"1322281410592"}
 Completed 200 OK in 2131ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-26 21:31:37 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTToktOLE.Tcv6KmFNuSbfNyTG_aFJbRfx4W4XEOVqdcGaWqfKBw%3D%3D" for 127.0.0.1 at 2011-11-26 21:32:21 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTToktOLE.Tcv6KmFNuSbfNyTG_aFJbRfx4W4XEOVqdcGaWqfKBw==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 21:32:24 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-26 21:32:26 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 21:33:56 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-26 21:33:56 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-26 21:34:08 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2167ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/images/rails.png" for 127.0.0.1 at 2011-11-26 21:34:11 +1100
+
+ActionController::RoutingError (No route matches "/accounts/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/patrick/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/images/rails.png" for 127.0.0.1 at 2011-11-26 21:43:53 +1100
+
+ActionController::RoutingError (No route matches "/images/rails.png"):
+  
+
+Rendered /home/patrick/.rvm/gems/ruby-1.9.2-head@BEngProj/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/auth/forcedotcom" for 127.0.0.1 at 2011-11-26 21:48:22 +1100
+
+
+Started GET "/auth/forcedotcom/callback?code=aPrxaSyVmC8fBbds.naZO1CTTv1y4KxvZAau08DKL27BqsbXmLa1bbVbY6MpUa1PKnQMryINZA%3D%3D" for 127.0.0.1 at 2011-11-26 21:48:27 +1100
+  Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"aPrxaSyVmC8fBbds.naZO1CTTv1y4KxvZAau08DKL27BqsbXmLa1bbVbY6MpUa1PKnQMryINZA==", "provider"=>"forcedotcom"}
+Redirected to https://localhost:3000/accounts/index
+Completed 302 Found in 1ms
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 21:48:30 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 21:48:49 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 16ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 21:49:08 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-26 21:49:15 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 1925ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/index" for 127.0.0.1 at 2011-11-26 21:51:20 +1100
+  Processing by AccountsController#index as HTML
+Rendered accounts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts/search" for 127.0.0.1 at 2011-11-26 21:51:24 +1100
+  Processing by AccountsController#search as HTML
+  Parameters: {"accountName"=>"sForce"}
+Rendered accounts/search.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 1918ms (Views: 10.9ms | ActiveRecord: 0.0ms)
